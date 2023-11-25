@@ -16,6 +16,9 @@ module.exports = {
       },
     },
     extend: {
+      backgroundImage: {
+        'fifa': "url('/fifa.jpg')",
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -74,3 +77,5 @@ module.exports = {
   },
   plugins: [require("tailwindcss-animate")],
 }
+
+//https://media.contentapi.ea.com/content/dam/ea/fc/fc-24/common/authenticity/fc24-auuthenticity-featured-image-16x9.jpg.adapt.crop191x100.1200w.jpg
